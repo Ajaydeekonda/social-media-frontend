@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(184, 180, 180);
+  margin: 0;
+  font-family: Arial, sans-serif; /* Optional: Adds a clean font */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Vertically centers the form */
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  width: 100%;
+  max-width: 500px; /* Restricts the container's width */
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block; /* Forces label to appear on its own line */
+  margin-bottom: 5px; /* Adds space between the label and input */
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  width: 100%; /* Makes input take full width */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensures padding and borders are included in the width */
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #007bff; /* Adds a focus border color */
+  outline: none; /* Removes default outline */
+}
+
+button {
+  width: 100%; /* Makes button full width */
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3; /* Adds a hover effect */
+}
